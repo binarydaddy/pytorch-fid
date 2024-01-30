@@ -63,6 +63,8 @@ python -m pytorch_fid --save-stats path/to/dataset path/to/outputfile
 
 The output file may then be used in place of the path to the original dataset for further comparisons.
 
+The output file is a dictionary of {'mu': Tensor(), 'sigma'}.
+
 ## Citing
 
 If you use this repository in your research, consider citing it using the following Bibtex entry:
@@ -86,3 +88,15 @@ FID was introduced by Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernha
 
 The original implementation is by the Institute of Bioinformatics, JKU Linz, licensed under the Apache License 2.0.
 See [https://github.com/bioinf-jku/TTUR](https://github.com/bioinf-jku/TTUR).
+
+
+## COCO 2017 validation
+
+Download the data from Kaggle (caption data is only available from the original Kaggle dataset)
+
+
+## TODO
+
+- [ ] Add other metrics for assessing generative models
+- [ ] CLIP Score, CLIP Similarity
+
