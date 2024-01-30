@@ -1,0 +1,1 @@
+python -m pytorch_fid --save-stats --device cuda:0 --resolution 256 /data2/coco2017/val2017 /data2/coco2017/coco2017_val_256_stats.npz
