@@ -99,4 +99,5 @@ Download the data from Kaggle (caption data is only available from the original 
 
 - [ ] Add other metrics for assessing generative models
 - [ ] CLIP Score, CLIP Similarity
+- [ ] Precision / Recall
 
